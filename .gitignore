@@ -1,0 +1,36 @@
+natural-language-processing/models
+models/*.pth
+
+*.yaml
+*.yml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore latex generated stuff
+publications/**/*.aux
+publications/**/*.log
+
+logs/
+
+*.tar
+*.pth
+*.spec
+
+environment.yml
+
+build/
+
+# Ignore jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore env
+env/
+
+tmp/
+bin/*.sh
+
+# Ignore submissions
+submissions/
